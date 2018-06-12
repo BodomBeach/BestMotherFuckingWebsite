@@ -1,0 +1,104 @@
+body {
+    margin: 40px auto;
+    max-width: 800px;
+    font-family: Open Sans, Arial;
+    font-size: 16px;
+    color: #454545;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+a {
+    color: #0077aa;
+}
+
+.tiny-police {
+    font-size: 6px;
+}
+
+.motherfuckingwebsite {
+    color:#00aa88;
+}
+
+ul li img {
+    height: 16px;
+}
+
+.color-thing {
+    color: #444;
+    font-weight: 800;
+}
+
+.color-thing::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #444;
+}
+
+.cat-picture {
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.cat-and-text::after {
+    clear:both;
+    content: "";
+    display: block;
+}
+
+.cat-picture img {
+    width:100%;
+}
+
+
+
+.color-loop {
+    -webkit-animation:colorchange 2s infinite alternate;
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {color: blue;}
+    10% {color: #8e44ad;}
+    20% {color: #1abc9c;}
+    30% {color: #d35400;}
+    40% {color: blue;}
+    50% {color: #34495e; }
+    60% {color: blue;}
+    70% {color: #2980b9;}
+    80% {color: #f1c40f; }
+    90% {color: #2980b9;}
+    100% {color: pink;}
+  }
+
+.quote::before {
+    content: open-quote;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+  .author {
+      font-size: 11px;
+      margin-left: 40px;
+      margin-top: 10px;
+      font-style: italic;
+  }
+
+  .citneeded {
+      vertical-align: top;
+      font-size: 12px;
+  }
+
+
+
+  .kopimi-logo {
+      height: 36px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
