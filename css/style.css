@@ -102,3 +102,13 @@ ul li img {
       margin-right: auto;
       display: block;
   }
+
+  .psyche-p {
+font-family: papyrus;
+color: blue
+  }
+
+  .psyche-h {
+      font-family: Comic;
+      color: green;
+  }
